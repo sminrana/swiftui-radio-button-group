@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67083C9826130AAE00505035 /* RadioButtonGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67083C9726130AAE00505035 /* RadioButtonGroup.swift */; };
+		67A52E74260F58DE00C9B6B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A52E73260F58DE00C9B6B5 /* AppDelegate.swift */; };
+		67A52E76260F58DE00C9B6B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A52E75260F58DE00C9B6B5 /* SceneDelegate.swift */; };
+		67A52E78260F58DE00C9B6B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A52E77260F58DE00C9B6B5 /* ContentView.swift */; };
+		67A52E7B260F58DE00C9B6B5 /* SRRadioButton.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 67A52E79260F58DE00C9B6B5 /* SRRadioButton.xcdatamodeld */; };
+		67A52E7D260F58E100C9B6B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67A52E7C260F58E100C9B6B5 /* Assets.xcassets */; };
+		67A52E80260F58E100C9B6B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67A52E7F260F58E100C9B6B5 /* Preview Assets.xcassets */; };
+		67A52E83260F58E100C9B6B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67A52E81260F58E100C9B6B5 /* LaunchScreen.storyboard */; };
+		67A52E8E260F58E100C9B6B5 /* SRRadioButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A52E8D260F58E100C9B6B5 /* SRRadioButtonTests.swift */; };
+		67A52E99260F58E100C9B6B5 /* SRRadioButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A52E98260F58E100C9B6B5 /* SRRadioButtonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67A52E8A260F58E100C9B6B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67A52E68260F58DE00C9B6B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67A52E6F260F58DE00C9B6B5;
+			remoteInfo = SRRadioButton;
+		};
+		67A52E95260F58E100C9B6B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67A52E68260F58DE00C9B6B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67A52E6F260F58DE00C9B6B5;
+			remoteInfo = SRRadioButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67083C9726130AAE00505035 /* RadioButtonGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonGroup.swift; sourceTree = "<group>"; };
+		67A52E70260F58DE00C9B6B5 /* SRRadioButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SRRadioButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67A52E73260F58DE00C9B6B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67A52E75260F58DE00C9B6B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		67A52E77260F58DE00C9B6B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		67A52E7A260F58DE00C9B6B5 /* SRRadioButton.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SRRadioButton.xcdatamodel; sourceTree = "<group>"; };
+		67A52E7C260F58E100C9B6B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67A52E7F260F58E100C9B6B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		67A52E82260F58E100C9B6B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67A52E84260F58E100C9B6B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67A52E89260F58E100C9B6B5 /* SRRadioButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SRRadioButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67A52E8D260F58E100C9B6B5 /* SRRadioButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRRadioButtonTests.swift; sourceTree = "<group>"; };
+		67A52E8F260F58E100C9B6B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67A52E94260F58E100C9B6B5 /* SRRadioButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SRRadioButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67A52E98260F58E100C9B6B5 /* SRRadioButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRRadioButtonUITests.swift; sourceTree = "<group>"; };
+		67A52E9A260F58E100C9B6B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67A52E6D260F58DE00C9B6B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67A52E86260F58E100C9B6B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67A52E91260F58E100C9B6B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67A52E67260F58DE00C9B6B5 = {
+			isa = PBXGroup;
+			children = (
+				67A52E72260F58DE00C9B6B5 /* SRRadioButton */,
+				67A52E8C260F58E100C9B6B5 /* SRRadioButtonTests */,
+				67A52E97260F58E100C9B6B5 /* SRRadioButtonUITests */,
+				67A52E71260F58DE00C9B6B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67A52E71260F58DE00C9B6B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67A52E70260F58DE00C9B6B5 /* SRRadioButton.app */,
+				67A52E89260F58E100C9B6B5 /* SRRadioButtonTests.xctest */,
+				67A52E94260F58E100C9B6B5 /* SRRadioButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67A52E72260F58DE00C9B6B5 /* SRRadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				67A52E73260F58DE00C9B6B5 /* AppDelegate.swift */,
+				67A52E75260F58DE00C9B6B5 /* SceneDelegate.swift */,
+				67A52E77260F58DE00C9B6B5 /* ContentView.swift */,
+				67A52E7C260F58E100C9B6B5 /* Assets.xcassets */,
+				67A52E81260F58E100C9B6B5 /* LaunchScreen.storyboard */,
+				67A52E84260F58E100C9B6B5 /* Info.plist */,
+				67A52E79260F58DE00C9B6B5 /* SRRadioButton.xcdatamodeld */,
+				67A52E7E260F58E100C9B6B5 /* Preview Content */,
+				67083C9726130AAE00505035 /* RadioButtonGroup.swift */,
+			);
+			path = SRRadioButton;
+			sourceTree = "<group>";
+		};
+		67A52E7E260F58E100C9B6B5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				67A52E7F260F58E100C9B6B5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		67A52E8C260F58E100C9B6B5 /* SRRadioButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				67A52E8D260F58E100C9B6B5 /* SRRadioButtonTests.swift */,
+				67A52E8F260F58E100C9B6B5 /* Info.plist */,
+			);
+			path = SRRadioButtonTests;
+			sourceTree = "<group>";
+		};
+		67A52E97260F58E100C9B6B5 /* SRRadioButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67A52E98260F58E100C9B6B5 /* SRRadioButtonUITests.swift */,
+				67A52E9A260F58E100C9B6B5 /* Info.plist */,
+			);
+			path = SRRadioButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67A52E6F260F58DE00C9B6B5 /* SRRadioButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67A52E9D260F58E100C9B6B5 /* Build configuration list for PBXNativeTarget "SRRadioButton" */;
+			buildPhases = (
+				67A52E6C260F58DE00C9B6B5 /* Sources */,
+				67A52E6D260F58DE00C9B6B5 /* Frameworks */,
+				67A52E6E260F58DE00C9B6B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SRRadioButton;
+			productName = SRRadioButton;
+			productReference = 67A52E70260F58DE00C9B6B5 /* SRRadioButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67A52E88260F58E100C9B6B5 /* SRRadioButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67A52EA0260F58E100C9B6B5 /* Build configuration list for PBXNativeTarget "SRRadioButtonTests" */;
+			buildPhases = (
+				67A52E85260F58E100C9B6B5 /* Sources */,
+				67A52E86260F58E100C9B6B5 /* Frameworks */,
+				67A52E87260F58E100C9B6B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67A52E8B260F58E100C9B6B5 /* PBXTargetDependency */,
+			);
+			name = SRRadioButtonTests;
+			productName = SRRadioButtonTests;
+			productReference = 67A52E89260F58E100C9B6B5 /* SRRadioButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67A52E93260F58E100C9B6B5 /* SRRadioButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67A52EA3260F58E100C9B6B5 /* Build configuration list for PBXNativeTarget "SRRadioButtonUITests" */;
+			buildPhases = (
+				67A52E90260F58E100C9B6B5 /* Sources */,
+				67A52E91260F58E100C9B6B5 /* Frameworks */,
+				67A52E92260F58E100C9B6B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67A52E96260F58E100C9B6B5 /* PBXTargetDependency */,
+			);
+			name = SRRadioButtonUITests;
+			productName = SRRadioButtonUITests;
+			productReference = 67A52E94260F58E100C9B6B5 /* SRRadioButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67A52E68260F58DE00C9B6B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					67A52E6F260F58DE00C9B6B5 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					67A52E88260F58E100C9B6B5 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 67A52E6F260F58DE00C9B6B5;
+					};
+					67A52E93260F58E100C9B6B5 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 67A52E6F260F58DE00C9B6B5;
+					};
+				};
+			};
+			buildConfigurationList = 67A52E6B260F58DE00C9B6B5 /* Build configuration list for PBXProject "SRRadioButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67A52E67260F58DE00C9B6B5;
+			productRefGroup = 67A52E71260F58DE00C9B6B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67A52E6F260F58DE00C9B6B5 /* SRRadioButton */,
+				67A52E88260F58E100C9B6B5 /* SRRadioButtonTests */,
+				67A52E93260F58E100C9B6B5 /* SRRadioButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67A52E6E260F58DE00C9B6B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A52E83260F58E100C9B6B5 /* LaunchScreen.storyboard in Resources */,
+				67A52E80260F58E100C9B6B5 /* Preview Assets.xcassets in Resources */,
+				67A52E7D260F58E100C9B6B5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67A52E87260F58E100C9B6B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67A52E92260F58E100C9B6B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67A52E6C260F58DE00C9B6B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A52E74260F58DE00C9B6B5 /* AppDelegate.swift in Sources */,
+				67083C9826130AAE00505035 /* RadioButtonGroup.swift in Sources */,
+				67A52E76260F58DE00C9B6B5 /* SceneDelegate.swift in Sources */,
+				67A52E7B260F58DE00C9B6B5 /* SRRadioButton.xcdatamodeld in Sources */,
+				67A52E78260F58DE00C9B6B5 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67A52E85260F58E100C9B6B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A52E8E260F58E100C9B6B5 /* SRRadioButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67A52E90260F58E100C9B6B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A52E99260F58E100C9B6B5 /* SRRadioButtonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67A52E8B260F58E100C9B6B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67A52E6F260F58DE00C9B6B5 /* SRRadioButton */;
+			targetProxy = 67A52E8A260F58E100C9B6B5 /* PBXContainerItemProxy */;
+		};
+		67A52E96260F58E100C9B6B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67A52E6F260F58DE00C9B6B5 /* SRRadioButton */;
+			targetProxy = 67A52E95260F58E100C9B6B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67A52E81260F58E100C9B6B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67A52E82260F58E100C9B6B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67A52E9B260F58E100C9B6B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67A52E9C260F58E100C9B6B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67A52E9E260F58E100C9B6B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SRRadioButton/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SRRadioButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sminrana.test.SRRadioButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67A52E9F260F58E100C9B6B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SRRadioButton/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SRRadioButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sminrana.test.SRRadioButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		67A52EA1260F58E100C9B6B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SRRadioButtonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sminrana.test.SRRadioButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SRRadioButton.app/SRRadioButton";
+			};
+			name = Debug;
+		};
+		67A52EA2260F58E100C9B6B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SRRadioButtonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sminrana.test.SRRadioButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SRRadioButton.app/SRRadioButton";
+			};
+			name = Release;
+		};
+		67A52EA4260F58E100C9B6B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SRRadioButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sminrana.test.SRRadioButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SRRadioButton;
+			};
+			name = Debug;
+		};
+		67A52EA5260F58E100C9B6B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SRRadioButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sminrana.test.SRRadioButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SRRadioButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67A52E6B260F58DE00C9B6B5 /* Build configuration list for PBXProject "SRRadioButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67A52E9B260F58E100C9B6B5 /* Debug */,
+				67A52E9C260F58E100C9B6B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67A52E9D260F58E100C9B6B5 /* Build configuration list for PBXNativeTarget "SRRadioButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67A52E9E260F58E100C9B6B5 /* Debug */,
+				67A52E9F260F58E100C9B6B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67A52EA0260F58E100C9B6B5 /* Build configuration list for PBXNativeTarget "SRRadioButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67A52EA1260F58E100C9B6B5 /* Debug */,
+				67A52EA2260F58E100C9B6B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67A52EA3260F58E100C9B6B5 /* Build configuration list for PBXNativeTarget "SRRadioButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67A52EA4260F58E100C9B6B5 /* Debug */,
+				67A52EA5260F58E100C9B6B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		67A52E79260F58DE00C9B6B5 /* SRRadioButton.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				67A52E7A260F58DE00C9B6B5 /* SRRadioButton.xcdatamodel */,
+			);
+			currentVersion = 67A52E7A260F58DE00C9B6B5 /* SRRadioButton.xcdatamodel */;
+			path = SRRadioButton.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 67A52E68260F58DE00C9B6B5 /* Project object */;
+}
