@@ -13,19 +13,13 @@ protocol RadioModelable {
     var label: String {get set}
 }
 
-protocol RadioDataProviding {
-    associatedtype RadioItem
-    var items: [RadioItem] {get set}
-    func getItems() -> [RadioItem]
+protocol RadioDataProviding: ObservableObject {
+    var items: [RadioModel] {get set}
+    func getItems() -> [RadioModel]
+    func toggle(id: UUID)
 }
 
-protocol RadioViewable {
-    associatedtype DataProvider
-    var dataProvider: DataProvider {get set}
-}
-
-struct SRadioButtonViewGroup: View, RadioViewable {
-    typealias DataProvider = RadioDataProvider
+struct SRadioButtonViewGroup<DataProvider>: View where DataProvider: RadioDataProviding {
     @ObservedObject var dataProvider: DataProvider
     
     let selectedItem: (RadioModel) -> Void
@@ -38,20 +32,8 @@ struct SRadioButtonViewGroup: View, RadioViewable {
         }
     }
     
-    private func toggle(id: UUID) {
-        for item in self.dataProvider.items {
-            if item.id == id {
-                item.isChecked = true
-            } else {
-                item.isChecked = false
-            }
-        }
-        
-        self.dataProvider.objectWillChange.send()
-    }
-    
     private func _onChange(isChecked: Bool, id: UUID) {
-        self.toggle(id: id)
+        self.dataProvider.toggle(id: id)
         
         let item = self.dataProvider.items.first(where: {$0.id == id})
         selectedItem(item!)
