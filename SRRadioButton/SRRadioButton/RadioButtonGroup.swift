@@ -22,7 +22,7 @@ protocol RadioDataProviding: ObservableObject {
 struct SRadioButtonViewGroup<DataProvider>: View where DataProvider: RadioDataProviding {
     @ObservedObject var dataProvider: DataProvider
     
-    let selectedItem: (RadioModel) -> Void
+    let selectedItem: (RadioModelable) -> Void
     
     var body: some View {
         VStack (alignment: .leading, spacing: 5) {
@@ -40,8 +40,8 @@ struct SRadioButtonViewGroup<DataProvider>: View where DataProvider: RadioDataPr
     }
 }
 
-struct SRadioButtonView: View {
-    @State var model: RadioModel
+struct SRadioButtonView<Item>: View where Item: RadioModelable {
+    @State var model: Item
     
     let onChange: (_ isChecked: Bool, _ id: UUID) -> Void
     

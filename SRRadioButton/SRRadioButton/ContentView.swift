@@ -10,7 +10,6 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         SRadioButtonViewGroup(dataProvider: DataProvider(), selectedItem: getSelectedItemLabel)
-        Text("Hello")
     }
     
     func getSelectedItemLabel<T>(item: T) {
@@ -32,7 +31,7 @@ class RadioModel: Identifiable, RadioModelable {
 
 /// Create your data provider
 class DataProvider: RadioDataProviding {
-    typealias RadioItem = RadioModel
+    typealias RadioItem = RadioModel // use your data model
     
     @Published var items: [RadioItem] = []
     
