@@ -8,15 +8,18 @@
 import SwiftUI
 
 protocol RadioModelable {
-    var id: UUID {get set}
+    var id: Int {get set}
     var isChecked: Bool {get set}
     var label: String {get set}
+    
+    init(id: Int, isChecked: Bool, label: String)
 }
 
 protocol RadioDataProviding: ObservableObject {
-    var items: [RadioModel] {get set}
-    func getItems() -> [RadioModel]
-    func toggle(id: UUID)
+    associatedtype RItem: RadioModelable
+    var items: [RItem] {get set}
+    func getItems() -> [RItem]
+    func toggle(id: Int)
 }
 
 struct SRadioButtonViewGroup<DataProvider>: View where DataProvider: RadioDataProviding {
@@ -26,13 +29,13 @@ struct SRadioButtonViewGroup<DataProvider>: View where DataProvider: RadioDataPr
     
     var body: some View {
         VStack (alignment: .leading, spacing: 5) {
-            ForEach(dataProvider.items) { item in
+            ForEach(dataProvider.items, id: \.label) { item in
                 SRadioButtonView(model: item, onChange: _onChange)
             }
         }
     }
     
-    private func _onChange(isChecked: Bool, id: UUID) {
+    private func _onChange(isChecked: Bool, id: Int) {
         self.dataProvider.toggle(id: id)
         
         let item = self.dataProvider.items.first(where: {$0.id == id})
@@ -43,7 +46,7 @@ struct SRadioButtonViewGroup<DataProvider>: View where DataProvider: RadioDataPr
 struct SRadioButtonView<Item>: View where Item: RadioModelable {
     @State var model: Item
     
-    let onChange: (_ isChecked: Bool, _ id: UUID) -> Void
+    let onChange: (_ isChecked: Bool, _ id: Int) -> Void
     
     var body: some View {
         HStack {
